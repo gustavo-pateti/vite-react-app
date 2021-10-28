@@ -1,0 +1,19 @@
+{
+  /**
+   * Prettier config
+   */
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /**
+   * Stylelint config
+   */
+  "css.validate": false,
+  "stylelint.validate": ["css"],
+  "[css]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  }
+}
